@@ -1,0 +1,45 @@
+.header {
+  background-color: #31b285;
+  padding: 0.5rem;
+}
+
+.header > p {
+  font-family: "Lucida Sans";
+  color: #233e80;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.microphone {
+  position: absolute;
+  z-index: 10;
+  right: 2rem;
+  bottom: 1rem;
+  background-color: #31b285;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.microphone > img {
+  height: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: white;
+  width: 90vw;
+  height: 10vh;
+  z-index: 100;
+  border: 5px solid #31b285;
+  border-radius: 1rem;
+  color: black;
+  overflow-y: scroll;
+
+  padding: 10px;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
